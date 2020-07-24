@@ -1,0 +1,2 @@
+# ThreadCooperation
+Pretpostavimo da vi kreirate i lansirate dva zadatka. Jedan za stavljanje depozita na račun, a drugi koji vrši povlačenje novca sa istog računa. Zadatak povlačenja mora da čeka da stanje računa pokaže veća sredstva od onih koja se povlače. Kod svakog unosa novca šalje, zadatka unosa obaveštava zadatak povlačenja novca. Ako je stanje i dalje nedovoljno, nit nastavlja da čeka novi depozit.
